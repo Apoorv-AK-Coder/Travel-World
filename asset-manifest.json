@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.603cdd4d.css",
-    "main.js": "/static/js/main.d0a54c8b.js",
-    "static/media/hero1.jpg": "/static/media/hero1.36c62ad46f4adea36c4f.jpg",
-    "static/media/service-BG.jpg": "/static/media/service-BG.2ed02b300ce5933c9223.jpg",
-    "static/media/media1.jpg": "/static/media/media1.010332ad3531e4b2a41a.jpg",
-    "static/media/hotel-book.jpg": "/static/media/hotel-book.9ec6fc9dfcbb4318398f.jpg",
-    "static/media/car-rent.jpg": "/static/media/car-rent.97054b6c926ca18febc3.jpg",
-    "static/media/flight-book.jpg": "/static/media/flight-book.4c0a100284aac624655f.jpg",
-    "static/media/body-bg.png": "/static/media/body-bg.af16ef8bc87b4015013a.png",
-    "static/media/price.png": "/static/media/price.0b9572f842b257eb295b.png",
-    "static/media/support.png": "/static/media/support.83991010a4a5727754d3.png",
-    "static/media/offer.png": "/static/media/offer.209fadb333cd87a29a61.png",
-    "static/media/booking.png": "/static/media/booking.1d24a2dcfd0766aab8b3.png",
-    "static/media/ui.png": "/static/media/ui.013d18acc86b375818e7.png",
-    "static/media/logo.png": "/static/media/logo.41420c2da21a0387a39e.png",
-    "index.html": "/index.html",
-    "main.603cdd4d.css.map": "/static/css/main.603cdd4d.css.map",
-    "main.d0a54c8b.js.map": "/static/js/main.d0a54c8b.js.map"
+    "main.css": "/Travel-World/static/css/main.22c06729.css",
+    "main.js": "/Travel-World/static/js/main.7b496747.js",
+    "static/media/hero1.jpg": "/Travel-World/static/media/hero1.36c62ad46f4adea36c4f.jpg",
+    "static/media/service-BG.jpg": "/Travel-World/static/media/service-BG.2ed02b300ce5933c9223.jpg",
+    "static/media/media1.jpg": "/Travel-World/static/media/media1.010332ad3531e4b2a41a.jpg",
+    "static/media/hotel-book.jpg": "/Travel-World/static/media/hotel-book.9ec6fc9dfcbb4318398f.jpg",
+    "static/media/car-rent.jpg": "/Travel-World/static/media/car-rent.97054b6c926ca18febc3.jpg",
+    "static/media/flight-book.jpg": "/Travel-World/static/media/flight-book.4c0a100284aac624655f.jpg",
+    "static/media/body-bg.png": "/Travel-World/static/media/body-bg.af16ef8bc87b4015013a.png",
+    "static/media/price.png": "/Travel-World/static/media/price.0b9572f842b257eb295b.png",
+    "static/media/support.png": "/Travel-World/static/media/support.83991010a4a5727754d3.png",
+    "static/media/offer.png": "/Travel-World/static/media/offer.209fadb333cd87a29a61.png",
+    "static/media/booking.png": "/Travel-World/static/media/booking.1d24a2dcfd0766aab8b3.png",
+    "static/media/ui.png": "/Travel-World/static/media/ui.013d18acc86b375818e7.png",
+    "static/media/logo.png": "/Travel-World/static/media/logo.41420c2da21a0387a39e.png",
+    "index.html": "/Travel-World/index.html",
+    "main.22c06729.css.map": "/Travel-World/static/css/main.22c06729.css.map",
+    "main.7b496747.js.map": "/Travel-World/static/js/main.7b496747.js.map"
   },
   "entrypoints": [
-    "static/css/main.603cdd4d.css",
-    "static/js/main.d0a54c8b.js"
+    "static/css/main.22c06729.css",
+    "static/js/main.7b496747.js"
   ]
 }
