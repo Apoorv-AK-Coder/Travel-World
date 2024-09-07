@@ -6,6 +6,8 @@ import Intro from './home/intro.jsx';
 import Usp from './home/usp.jsx';
 import Offer from './home/offer.jsx';
 import OurServices from './home/services.jsx';
+import Slider from './home/slider.jsx';
+import Deals from './home/deals.jsx';
 import React from 'react';
 
 export default function App() {  
@@ -17,6 +19,8 @@ export default function App() {
       <Usp />
       <Offer />
       <OurServices />
+      <Slider />
+      <Deals />
     </div>
   );
 }
