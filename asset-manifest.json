@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-World/static/css/main.22c06729.css",
-    "main.js": "/Travel-World/static/js/main.7b496747.js",
+    "main.css": "/Travel-World/static/css/main.983467fb.css",
+    "main.js": "/Travel-World/static/js/main.8a76884c.js",
     "static/media/hero1.jpg": "/Travel-World/static/media/hero1.36c62ad46f4adea36c4f.jpg",
     "static/media/service-BG.jpg": "/Travel-World/static/media/service-BG.2ed02b300ce5933c9223.jpg",
     "static/media/media1.jpg": "/Travel-World/static/media/media1.010332ad3531e4b2a41a.jpg",
@@ -9,6 +9,15 @@
     "static/media/car-rent.jpg": "/Travel-World/static/media/car-rent.97054b6c926ca18febc3.jpg",
     "static/media/flight-book.jpg": "/Travel-World/static/media/flight-book.4c0a100284aac624655f.jpg",
     "static/media/body-bg.png": "/Travel-World/static/media/body-bg.af16ef8bc87b4015013a.png",
+    "static/media/deals-bg.webp": "/Travel-World/static/media/deals-bg.de6b9089ee14fcde51be.webp",
+    "static/media/thailand.jpg": "/Travel-World/static/media/thailand.1773f5a737ab361ac4f7.jpg",
+    "static/media/malaysia.jpg": "/Travel-World/static/media/malaysia.f257f5823fc069bdbdd4.jpg",
+    "static/media/kathmandu.jpg": "/Travel-World/static/media/kathmandu.4048b302a8eab00c27da.jpg",
+    "static/media/china.jpg": "/Travel-World/static/media/china.1644d365f055b15f3924.jpg",
+    "static/media/newyork.jpg": "/Travel-World/static/media/newyork.ff4cdf7fff30fe44b05d.jpg",
+    "static/media/darjeeling.jpg": "/Travel-World/static/media/darjeeling.7472b7678db756023bcd.jpg",
+    "static/media/egypt.jpg": "/Travel-World/static/media/egypt.26f78e4238dc930df7dc.jpg",
+    "static/media/london.jpg": "/Travel-World/static/media/london.a016bab0e8f746889296.jpg",
     "static/media/price.png": "/Travel-World/static/media/price.0b9572f842b257eb295b.png",
     "static/media/support.png": "/Travel-World/static/media/support.83991010a4a5727754d3.png",
     "static/media/offer.png": "/Travel-World/static/media/offer.209fadb333cd87a29a61.png",
@@ -16,11 +25,11 @@
     "static/media/ui.png": "/Travel-World/static/media/ui.013d18acc86b375818e7.png",
     "static/media/logo.png": "/Travel-World/static/media/logo.41420c2da21a0387a39e.png",
     "index.html": "/Travel-World/index.html",
-    "main.22c06729.css.map": "/Travel-World/static/css/main.22c06729.css.map",
-    "main.7b496747.js.map": "/Travel-World/static/js/main.7b496747.js.map"
+    "main.983467fb.css.map": "/Travel-World/static/css/main.983467fb.css.map",
+    "main.8a76884c.js.map": "/Travel-World/static/js/main.8a76884c.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c06729.css",
-    "static/js/main.7b496747.js"
+    "static/css/main.983467fb.css",
+    "static/js/main.8a76884c.js"
   ]
 }
