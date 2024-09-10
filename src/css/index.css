@@ -450,8 +450,9 @@ form {
 
         div {
             padding: 0;
+            text-align: left;
         }
-
+        
         .img {
             p {
                 text-align: left;
@@ -462,7 +463,7 @@ form {
                 color: var(--fourth-color);
                 background-color: var(--primary-color);
             }
-
+            
             h4 {
                 text-align: left;
                 font-size: 18px;
@@ -479,12 +480,14 @@ form {
                 padding: 2px;
             }
         }
-
+        
         .main {
             margin-top: 20px;
         }
-
+        
         .icons {
+            /* text-align: left !important; */
+            /* justify-content: right !important; */
             i {
                 color: var(--secondary-color);
                 border-radius: 50px;
@@ -492,6 +495,7 @@ form {
         }
 
         .price {
+            text-align: center;
             h3 {
                 color: var(--primary-color);
             }
@@ -507,6 +511,81 @@ form {
         }
     }
 }
+
+footer {
+    text-align: center;
+        img {
+            width: 225px;
+            background-image: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .social {
+            padding-top: 30px;
+            i {
+                background-color: var(--primary-color);
+                color: var(--fourth-color);
+                padding: 10px;
+                border-radius: 50px;
+            }
+
+            i:hover {
+                background-color: var(--secondary-color);
+                color: var(--fourth-color);
+            }
+        }
+
+        a {
+            color: var(--primary-color);
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+    .foot {
+        padding-top: 20px;
+        margin-top: 50px;
+        border-top: 1px solid #000;
+
+    }
+}
+
+.cta {
+    background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(../asset/CTA-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+
+    h2, h3, p {
+        color: var(--fourth-color);
+    }
+
+    i {
+        font-size: 35px;
+        background-color: var(--fourth-color);
+        color: var(--primary-color);
+        padding: 15px;
+        border-radius: 50%;
+    }
+    .column {
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+
+
+
+
+
 
 
 .ctasection {
@@ -695,83 +774,7 @@ form {
     }
 }
 
-footer {
-    background-color: var(--third-color);
 
-    .mainfooter {
-        width: 1200px;
-        padding: 40px 20px 0 20px;
-        margin: auto;
-
-        h3,
-        p {
-            color: var(--fourth-color);
-        }
-
-        .social {
-            justify-content: end;
-
-            i {
-                background-color: var(--fourth-color);
-                color: var(--secondary-color);
-                padding: 10px;
-                border-radius: 50px;
-            }
-
-            i:hover {
-                background-color: var(--primary-color);
-                color: var(--fourth-color);
-            }
-
-            div {
-                gap: 12px;
-            }
-        }
-
-        .links {
-            border-top: 1px solid var(--fourth-color);
-            border-bottom: 1px solid var(--fourth-color);
-            padding: 20px 0;
-            margin-top: 20px;
-
-            a::before {
-                content: "\f105";
-                font-family: "Font Awesome 6 Free";
-                font-weight: 900;
-                margin-right: 8px;
-            }
-        }
-
-        .column {
-            flex: 1;
-
-            b {
-                font-size: 18px;
-            }
-
-            a {
-                color: var(--fourth-color);
-                text-decoration: none;
-            }
-
-            a:hover {
-                text-decoration: underline dashed;
-            }
-        }
-
-        img {
-            width: 200px;
-        }
-    }
-
-    .foot {
-        width: 1200px;
-        padding: 20px;
-        margin-right: auto;
-        margin-left: auto;
-        color: var(--fourth-color);
-    }
-}
 
 .mobilecta {
     position: fixed;

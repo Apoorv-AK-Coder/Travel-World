@@ -121,12 +121,12 @@ export const popularDeals= [
         offer: 'Free Island Excursion with Early Bookings!',
 
         icon1: 'fa-solid fa-arrow-right-arrow-left',
-        icon2: 'fa-solid fa-bed',
-        icon3: 'fa-solid fa-user-tie',
-        icon4: 'fa-solid fa-umbrella-beach',
         include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-bed',
         include2: 'Luxury hotel stay',
+        icon3: 'fa-solid fa-user-tie',
         include3: 'Guided temple tours',
+        icon4: 'fa-solid fa-umbrella-beach',
         include4: 'Beach activities'
     },
 
@@ -136,9 +136,17 @@ export const popularDeals= [
         description: 'Relax in the tropical paradise of Malaysia. Explore beautiful islands, rainforests, and vibrant city life with this exotic getaway package.',
         duration: '7 days / 6 nights',
         price: '$1,299',
-        includes: 'Round-trip flights, beachfront resort stay, island-hopping tours, and local dining experiences.',
         timeoffer: 'Until January 2025',
-        offer: 'Free Island Tour on Group Bookings!'
+        offer: 'Free Island Tour on Group Bookings!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-umbrella-beach',
+        include2: 'Beachfront stay',
+        icon3: 'fa-solid fa-cart-shopping',
+        include3: 'Island-hopping tours',
+        icon4: 'fa-solid fa-utensils',
+        include4: 'Local dining exp.'
     },
 
     {
@@ -147,9 +155,17 @@ export const popularDeals= [
         description: 'Explore the city that never sleeps with this exciting New York package. Visit Times Square, the Statue of Liberty, Central Park, and enjoy Broadway shows and shopping.',
         duration: '5 days / 4 nights',
         price: '$1,999',
-        includes: 'Round-trip flights, stay in a 4-star hotel, guided city tours, and Broadway show tickets.',
         timeoffer: 'Until December 2024',
-        offer: '10% Off Bookings Before October!'
+        offer: '10% Off Bookings Before October!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-star',
+        include2: 'Stay in a 4-★ hotel',
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Guided city tours',
+        icon4: 'fa-solid fa-ticket',
+        include4: 'Show tickets'
     },
 
     {
@@ -158,9 +174,17 @@ export const popularDeals= [
         description: 'Experience the best of London’s history, culture, and iconic landmarks. This package includes visits to Buckingham Palace, the Tower of London, and a Thames River cruise.',
         duration: '6 days / 5 nights',
         price: '$1,699',
-        includes: 'Round-trip flights, stay in a 4-star hotel, guided city tours, and a London Eye ticket.',
         timeoffer: 'Until May 2025',
-        offer: 'Free Thames Cruise Ticket with Booking!'
+        offer: 'Free Thames Cruise Ticket with Booking!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-star',
+        include2: 'Stay in a 4-★ hotel',
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Guided city tours',
+        icon4: 'fa-solid fa-ticket',
+        include4: 'A London Eye ticket'
     },
 
     {
@@ -169,9 +193,17 @@ export const popularDeals= [
         description: 'Step back in time with this exclusive tour of Egypt’s ancient wonders. Explore the Pyramids of Giza, the Sphinx, and cruise the Nile River while experiencing the rich culture.',
         duration: '6 days / 5 nights',
         price: '$1,899',
-        includes: 'Round-trip flights, Nile River cruise, guided tours of ancient sites, and stays in 4-star hotels.',
         timeoffer: 'Until February 2025',
-        offer: 'Save 15% on bookings before November!'
+        offer: 'Save 15% on bookings before November!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-water',
+        include2: 'Nile River cruise',
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Ancient sites guide',
+        icon4: 'fa-solid fa-star',
+        include4: 'Stays in 4-★ hotels'
     },
 
     {
@@ -180,9 +212,17 @@ export const popularDeals= [
         description: 'Explore the rich cultural heritage and spiritual sites of Kathmandu. Visit ancient temples, enjoy panoramic views of the Himalayas, and immerse yourself in Nepalese traditions.',
         duration: '5 days / 4 nights',
         price: '$799',
-        includes: 'Round-trip flights, 3-star hotel stay, guided city tours, and a visit to UNESCO World Heritage sites.',
         timeoffer: 'Untill April 2025',
-        offer: 'Free Mountain Tour on Early Bookings!'
+        offer: 'Free Mountain Tour on Early Bookings!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-star',
+        include2: '3-★ hotel stay',
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Guided city tours',
+        icon4: 'fa-solid fa-person-walking',
+        include4: 'Unesco Heritage visit'
     },
 
     {
@@ -191,9 +231,17 @@ export const popularDeals= [
         description: 'Discover the ancient history and modern marvels of China. This package includes visits to the Great Wall, the Forbidden City, and vibrant cities like Beijing and Shanghai.',
         duration: '7 days / 6 nights',
         price: '$1,499',
-        includes: 'Round-trip flights, 4-star hotel accommodations, guided tours of major attractions, and traditional Chinese meals.',
         timeoffer: 'Until December 2024',
-        offer: 'Save 20% on Group Bookings!'
+        offer: 'Save 20% on Group Bookings!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-star',
+        include2: '4-★ hotel stay',
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Tour guide',
+        icon4: 'fa-solid fa-utensils',
+        include4: 'Trad. chinese food'
     },
 
     {
@@ -202,8 +250,16 @@ export const popularDeals= [
         description: 'Nestled in the Himalayas, this Darjeeling retreat offers stunning views of the tea gardens and mountains. Enjoy the iconic Toy Train ride and immerse yourself in serene nature.',
         duration: '5 days / 4 nights',
         price: '$999',
-        includes: 'Round-trip flights, stay in a tea estate resort, guided tea garden tours, Toy Train ride, and local cuisine.',
         timeoffer: 'Until March 2025',
-        offer: 'Free Tea Tasting & Plantation Tour!'
+        offer: 'Free Tea Tasting & Plantation Tour!',
+
+        icon1: 'fa-solid fa-arrow-right-arrow-left',
+        include1: 'Round-trip flights',
+        icon2: 'fa-solid fa-hotel',
+        include2: "Stay in a Tea resort",
+        icon3: 'fa-solid fa-user-tie',
+        include3: 'Guided temple tours',
+        icon4: 'fa-solid fa-train',
+        include4: 'Toy Train ride'
     }
 ]

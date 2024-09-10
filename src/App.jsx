@@ -8,6 +8,8 @@ import Offer from './home/offer.jsx';
 import OurServices from './home/services.jsx';
 import Slider from './home/slider.jsx';
 import Deals from './home/deals.jsx';
+import Footer from './footer.jsx';
+import CTA from './home/cta.jsx';
 import React from 'react';
 
 export default function App() {  
@@ -21,6 +23,8 @@ export default function App() {
       <OurServices />
       <Slider />
       <Deals />
+      <CTA />
+      <Footer />
     </div>
   );
 }
