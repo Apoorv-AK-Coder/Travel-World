@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-World/static/css/main.983467fb.css",
-    "main.js": "/Travel-World/static/js/main.8a76884c.js",
+    "main.css": "/Travel-World/static/css/main.6a84e0e2.css",
+    "main.js": "/Travel-World/static/js/main.ebed64a9.js",
     "static/media/hero1.jpg": "/Travel-World/static/media/hero1.36c62ad46f4adea36c4f.jpg",
     "static/media/service-BG.jpg": "/Travel-World/static/media/service-BG.2ed02b300ce5933c9223.jpg",
     "static/media/media1.jpg": "/Travel-World/static/media/media1.010332ad3531e4b2a41a.jpg",
@@ -10,6 +10,7 @@
     "static/media/flight-book.jpg": "/Travel-World/static/media/flight-book.4c0a100284aac624655f.jpg",
     "static/media/body-bg.png": "/Travel-World/static/media/body-bg.af16ef8bc87b4015013a.png",
     "static/media/deals-bg.webp": "/Travel-World/static/media/deals-bg.de6b9089ee14fcde51be.webp",
+    "static/media/CTA-bg.jpg": "/Travel-World/static/media/CTA-bg.a6e41f977a006f18a2c8.jpg",
     "static/media/thailand.jpg": "/Travel-World/static/media/thailand.1773f5a737ab361ac4f7.jpg",
     "static/media/malaysia.jpg": "/Travel-World/static/media/malaysia.f257f5823fc069bdbdd4.jpg",
     "static/media/kathmandu.jpg": "/Travel-World/static/media/kathmandu.4048b302a8eab00c27da.jpg",
@@ -25,11 +26,11 @@
     "static/media/ui.png": "/Travel-World/static/media/ui.013d18acc86b375818e7.png",
     "static/media/logo.png": "/Travel-World/static/media/logo.41420c2da21a0387a39e.png",
     "index.html": "/Travel-World/index.html",
-    "main.983467fb.css.map": "/Travel-World/static/css/main.983467fb.css.map",
-    "main.8a76884c.js.map": "/Travel-World/static/js/main.8a76884c.js.map"
+    "main.6a84e0e2.css.map": "/Travel-World/static/css/main.6a84e0e2.css.map",
+    "main.ebed64a9.js.map": "/Travel-World/static/js/main.ebed64a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.983467fb.css",
-    "static/js/main.8a76884c.js"
+    "static/css/main.6a84e0e2.css",
+    "static/js/main.ebed64a9.js"
   ]
 }
