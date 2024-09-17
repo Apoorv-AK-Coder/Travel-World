@@ -1,7 +1,7 @@
+import React, { useEffect, useState } from 'react';
 import './css/style.css';
 import './css/index.css';
 import logo from './asset/logo.png';
-import React, { useEffect, useState } from 'react';
 
 export default function Header() {
 

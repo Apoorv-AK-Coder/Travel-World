@@ -24,9 +24,9 @@
     "script": "^0.1.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "gh-pages": "^6.1.1",
-    "vite": "^4.5.3"
+    "vite": "^5.4.6"
   },
   "browserslist": {
     "production": [
