@@ -10,9 +10,11 @@ import Slider from './home/slider.jsx';
 import Deals from './home/deals.jsx';
 import Footer from './footer.jsx';
 import CTA from './home/cta.jsx';
+import Blog from './home/blog.jsx';
+import MobileCTA from './mobile-cta.jsx';
 import React from 'react';
 
-export default function App() {  
+export default function App() {
   return (
     <div className="container">
       <Header />
@@ -23,8 +25,10 @@ export default function App() {
       <OurServices />
       <Slider />
       <Deals />
+      <Blog />
       <CTA />
       <Footer />
+      <MobileCTA />
     </div>
   );
 }

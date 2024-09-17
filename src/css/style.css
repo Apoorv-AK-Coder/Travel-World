@@ -8,11 +8,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    max-width: 100%;
-}
-
 body {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url(../asset/body-bg.png);
     background-position: center;
@@ -34,7 +29,7 @@ body {
 }
 
 .row {
-    width: 1200px;
+    width: 1240px;
     margin: auto;
     padding: 100px 20px;
 }
@@ -76,7 +71,7 @@ h6 {
 
 h1 {
     font-family: var(--third-font);
-    font-size: 47px;
+    font-size: 44px;
     font-weight: 400;
     text-shadow: 0px 5px 3px rgba(20, 20, 20, 0.7);
     opacity: 0;
@@ -144,16 +139,6 @@ button:hover {
     gap: 10px;
 }
 
-ul#ui-id-2 {
-    background-color: #fff;
-    padding: 5px;
-}
-
-ul#ui-id-1 {
-    background-color: #fff;
-    padding: 5px;
-}
-
 @media only screen and (max-width: 1024px) {
     .row {
         width: 100% !important;
@@ -162,7 +147,7 @@ ul#ui-id-1 {
     }
 
     h1 {
-        font-size: 25px !important;
+        font-size: 30px !important;
     }
 
     h2 {
@@ -177,7 +162,7 @@ ul#ui-id-1 {
         flex-direction: column !important;
     }
 
-    .gap {
+    .gap, .gap1, .gap2 {
         gap: 0 !important;
     }
 
@@ -185,195 +170,100 @@ ul#ui-id-1 {
         font-size: 16px !important;
     }
 
-    header {
-        .head {
-            width: 100% !important;
-
-            .right {
-                text-align: center !important;
-                margin: 0 auto !important;
-                width: 38%;
-
-                p {
-                    font-size: 12px !important;
-                }
-
-                i {
-                    font-size: 15px !important;
-                }
-            }
-
-            button {
-                margin: 0 !important;
-            }
-
-            img {
-                width: 113px !important;
-                height: auto !important;
-            }
-
-            .nav {
-                display: none;
-                position: absolute;
-                box-shadow: 0px 2px 2px rgba(20, 20, 20, 0.5);
-                padding: 30px 20px !important;
-                top: 0;
-                right: 0;
-                width: 70%;
-                height: 100vh;
-                background-color: var(--third-color);
-                overflow-y: auto;
-
-                i, #on i {
-                    color: var(--fourth-color) !important;
-                }
-
-                ul {
-                    text-align: left !important;
-                    flex-direction: column !important;
-                }
-            }
-
-            .icon {
-                color: var(--fourth-color);
-            }
-        }
-
-        #airlinesnav, #amtraknav, #travelnav {
-            position: relative !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: 100% !important;
-            background-color: transparent !important;
-        }
+    .cta .column {
+        width: 100% !important;
     }
 
-    #off,
-    #on {
-        display: block !important;
-        text-align: right !important;
-        font-size: 20px !important;
-        color: var(--fourth-color);
+    .mainslider .slide img {
+        width: 350px !important;
     }
 
-    form {
-        input,
-        select,
-        textarea {
-            padding: 15px 10px !important;
-        }
-
-        .dropdown-container {
-            margin-top: -12px !important;
-            margin-bottom: -3px !important;
-        }
+    .services {
+        clip-path: polygon(0 1%, 100% 0, 100% 99%, 0 100%) !important;
     }
 
-    footer {
-        .foot {
-            width: 100% !important;
-            margin-bottom: 100px !important;
-        }
-
-        .mainfooter {
-            width: 100% !important;
-            padding: 20px !important;
-            margin: auto !important;
-
-            .column {
-                margin-bottom: 15px !important;
-            }
-
-            .social {
-                text-align: left !important;
-                justify-content: start !important;
-            }
-        }
-    }
-
-    .bg {
-        h2,
-        p {
-            max-width: 100% !important;
-        }
-    }
-
-    .bg2 {
-        h4 {font-size: 17px !important;}
-    }
-
-    .bg3 {
-        .right, .left {
-            padding-top: 85px !important;
-        }
-
-        .hideshow {
-            display: none;
-        }
-
-        .hideshow1 {
-            display: block !important;
-        }
-
-        .row {
-            background-color: transparent !important;
-        }
-    }
-
-    .faq {    
-        .gap2 {
-            gap: 0 !important;
-        }
-    }
-
-    .ctasection {
-        .row {
-            padding-top: 80px !important;
-        }
-
-        img {
-            width: 40% !important;
-        }
-    
-        .column {    
-            .col {
-                text-align: center !important;
-    
-                .center {
-                    border-right: 0 !important;
-                    border-left: 0 !important;
-                    border-top: 1px solid #141414 !important;
-                    border-bottom: 1px solid #141414 !important;
-                    padding: 10px 0 !important;
-                    margin: 10px 0 !important;
-                }
-            }
-        }
-    }
-
-    .location {
-        margin-top: 20px !important;
-    }
-
-    .bg1 {
-        .arrowicon {
-            margin: -35px 0 -20px 0 !important;
-            padding-right: 17px !important;
-        }
-
-        button {
-            width: 100% !important;
-        }
-    }
-
-    .mobilecta {
-        display: flex !important;
-        gap: 10px;
+    .offer .right {
+        border-radius: 0 0 15px 15px !important;
+        padding: 25px !important;
     }
 
     .uspsection {
-        .column {
-            padding: 0 20px !important;
+        .left {
+            width: 100% !important;
+        }
+
+        .data {
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+    .intro {
+        p {
+            width: 100% !important;
+        }
+    }
+
+    header {
+        .head1 {
+            display: none;
+        }
+
+        .head {
+            width: 100% !important;
+            background-color: rgba(20, 20, 20, 0.5);
+        }
+        i {
+            display: block !important;
+            color: var(--fourth-color);
+            font-size: 20px;
+            text-align: right;
+        }
+
+        #on, #off {
+            display: block !important;
+        }
+
+        .nav {
+            display: none;
+            position: absolute !important;
+            background-color: var(--primary-color);
+            padding: 40px 20px;
+            right: 0;
+            top: 0;
+            width: 50%;
+            height: 100vh;
+        }
+
+        ul {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        li a {
+            font-size: 20px !important;
+        }
+
+        .navHide {
+            display: none;
+        }
+
+        .navShow {
+            display: block !important;
+        }
+    }
+
+    .bg1 .row {
+        padding-top: 125px !important;
+    }
+
+    .mobilecta {
+        display: block !important;
+    }
+
+    footer {
+        margin-bottom: 100px;
+        h4 {
+            margin-top: 20px;
         }
     }
 }

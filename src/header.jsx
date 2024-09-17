@@ -1,48 +1,50 @@
 import './css/style.css';
 import './css/index.css';
 import logo from './asset/logo.png';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Header() {
 
     const [scrolled, setScrolled] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 50) { // Adjust the threshold as needed
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
+    const handleScroll = () => {
+        if (window.scrollY > 50) { // Adjust the threshold as needed
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
     };
-  }, []);
-    // const [navClick, setNavClick] = useState('home');
 
-    // let class1, class2, class3, class4, class5, class6;
-    // if (navClick === 'home') { class1 = 'active'; }
-    // else if (navClick === 'skills') { class2 = 'active'; }
-    // else if (navClick === 'education') { class3 = 'active'; }
-    // else if (navClick === 'experience') { class4 = 'active'; }
-    // else if (navClick === 'work') { class5 = 'active'; }
-    // else if (navClick === 'contact') { class6 = 'active'; }
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const [navClick, setNavClick] = useState('home');
+
+    // Array for navigation items
+    const navItems = [
+        { id: 'home', label: 'Home', link: '/' },
+        { id: 'about', label: 'About Us', link: './about.html' },
+        { id: 'flight', label: 'Flights', link: '#' },
+        { id: 'airline', label: 'Airlines', link: '#' },
+        { id: 'travel', label: 'Travel', link: '#' },
+        { id: 'deals', label: 'Deals', link: '#' },
+        { id: 'blog', label: 'Blog', link: '#' },
+    ];
 
 
-    // const [mobileNav, setMobileNav] = useState(null);
-    // let class7, class8;
-    // class7 = 'column navigate';
-    // class8 = 'column nav';
-    // if(mobileNav === 'navShow'){
-    //     class8 = 'column nav navshow';
-    //     class7 = 'column navigate navhide';
-    // } else if(mobileNav ==='navHide'){
-    //     class8 = 'column nav';
-    //     class7 = 'column navigate';
-    // }
+    const [mobileNav, setMobileNav] = useState(false); // false means nav is hidden, true means nav is shown
+
+    const handleNavShow = () => {
+        setMobileNav(true);  // Show navigation
+    };
+
+    const handleNavHide = () => {
+        setMobileNav(false); // Hide navigation
+    };
 
     return (
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
@@ -72,20 +74,21 @@ export default function Header() {
                             <div className="column">
                                 <a href="./index.html"><img src={logo} /></a>
                             </div>
-                            <div className="column nav" id="view">
-                                <i className="fa-solid fa-xmark icon" id="off"></i>
+                            <div className={`column nav ${mobileNav ? 'navShow' : ''}`}>
+                                <i onClick={handleNavHide} className="fa-solid fa-xmark icon" id="off"></i>
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">Flights</a></li>
-                                    <li><a href="">Airlines</a></li>
-                                    <li><a href="">Amtrak</a></li>
-                                    <li><a href="">Travel</a></li>
-                                    <li><a href="">Deals</a></li>
-                                    <li><a href="">Blog</a></li>
+                                    {navItems.map((item) => (
+                                        <li key={item.id}
+                                            onClick={() => setNavClick(item.id)}
+                                            className={navClick === item.id ? 'active' : ''}
+                                        >
+                                            <a href={item.link}>{item.label}</a>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
-                            <div className="column" id="on">
-                                <i className="fa-solid fa-bars"></i>
+                            <div className={`column ${mobileNav ? 'navHide' : ''}`} id="on">
+                                <i onClick={handleNavShow} className="fa-solid fa-bars"></i>
                             </div>
                         </div>
                     </div>

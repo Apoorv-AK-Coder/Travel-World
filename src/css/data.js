@@ -15,6 +15,10 @@ import newyork from '../asset/newyork.jpg';
 import malaysia from '../asset/malaysia.jpg';
 import egypt from '../asset/egypt.jpg';
 
+import blog1 from '../asset/flight-booking-blog.jpg';
+import blog2 from '../asset/hotel-booking-blog.jpg';
+import blog3 from '../asset/car-rental-blog.jpg';
+
 export const Services = [
     {
         image: flight,
@@ -261,5 +265,51 @@ export const popularDeals= [
         include3: 'Guided temple tours',
         icon4: 'fa-solid fa-train',
         include4: 'Toy Train ride'
+    }
+]
+
+export const blogposts = [
+    {
+        image: blog1,
+        title: 'Flight Booking',
+        subtitle: 'Your Journey Starts Here',
+        description: 'Finding the right flight is essential for a stress-free trip. Our flight booking system provides access to a wide range of airlines, allowing you to compare prices, flight times, & amenities with ease. Simply enter your destination, preferred travel dates, & let us take care of the rest. We offer competitive prices, ensuring that you get the best deal for your travel needs.',
+        button: 'Book a Flight',
+    },
+
+    {
+        image: blog2,
+        title: 'Hotel Booking',
+        subtitle: 'Find Your Perfect Stay',
+        description: 'Booking the right hotel is key to a comfortable trip. From luxury resorts to budget-friendly accommodations, our platform offers a diverse selection of hotels to suit every preference & budget. With detailed descriptions, reviews, & images, you can make an informed decision about where to stay. Plus, you’ll benefit from exclusive deals & discounts when you book through our platform.',
+        button: 'Book a Hotel',
+    },
+
+    {
+        image: blog3,
+        title: 'Car Rental',
+        subtitle: 'Explore at Your Own Pace',
+        description: "Need a car for your trip? We've got you covered. Our car rental service allows you to choose from a variety of vehicles to suit your needs, whether you're looking for a compact car for city driving or an SUV for a road trip adventure. With flexible rental options & competitive pricing, you can hit the road with confidence.",
+        button: 'Book a Car',
+    }
+]
+
+export const offers = [
+    {
+        image: flight,
+        title: 'Flight Bookings',
+        description: "Fly to your destination with confidence. Search & compare flights from a wide range of airlines to find the best deals & schedules. Whether you're planning a short trip or a long-haul journey, our intuitive booking system makes it easy to secure your seat & get to where you need to go."
+    },
+
+    {
+        image: car,
+        title: 'Car Rentals',
+        description: "Hit the road with ease & flexibility. Choose from a wide range of vehicles that suit your needs, whether you're looking for a compact car for city driving or an SUV for a family adventure. Enjoy competitive rates, reliable service, & the freedom to explore at your own pace."
+    },
+
+    {
+        image: hotel,
+        title: 'Hotel Reservations',
+        description: 'Find the perfect place to stay with our extensive selection of hotels, ranging from luxurious resorts to cozy boutique inns. Enjoy user-friendly search options & detailed descriptions to help you make the best choice for your stay. Book now & rest easy knowing you’ve got a great room waiting for you.'
     }
 ]

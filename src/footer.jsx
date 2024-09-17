@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="row">
                     <div className="column d-flex gap1">
                         <div className="column">
-                            <img src="./src/asset/logo.png" alt="travel world logo" />
+                            <img src={logo} alt="travel world logo" />
                             <div className="social">
                                 <p>
                                     <a href=""><i className="fa-brands fa-facebook"></i></a>
