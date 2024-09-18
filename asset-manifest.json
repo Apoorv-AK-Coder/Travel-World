@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Travel-World/static/css/main.bece09d1.css",
-    "main.js": "/Travel-World/static/js/main.ec1c2fd1.js",
+    "main.js": "/Travel-World/static/js/main.93a217c1.js",
     "static/media/hero1.jpg": "/Travel-World/static/media/hero1.36c62ad46f4adea36c4f.jpg",
     "static/media/service-BG.jpg": "/Travel-World/static/media/service-BG.2ed02b300ce5933c9223.jpg",
     "static/media/media1.jpg": "/Travel-World/static/media/media1.010332ad3531e4b2a41a.jpg",
@@ -23,6 +23,8 @@
     "static/media/customer-support.jpg": "/Travel-World/static/media/customer-support.0f4c0ea8d133054e3cfb.jpg",
     "static/media/egypt.jpg": "/Travel-World/static/media/egypt.26f78e4238dc930df7dc.jpg",
     "static/media/london.jpg": "/Travel-World/static/media/london.a016bab0e8f746889296.jpg",
+    "static/media/about.png": "/Travel-World/static/media/about.7c6e786cd7bc48b3d738.png",
+    "static/media/journey.png": "/Travel-World/static/media/journey.94cab0184c88b6808159.png",
     "static/media/price.png": "/Travel-World/static/media/price.0b9572f842b257eb295b.png",
     "static/media/support.png": "/Travel-World/static/media/support.83991010a4a5727754d3.png",
     "static/media/offer.png": "/Travel-World/static/media/offer.209fadb333cd87a29a61.png",
@@ -31,10 +33,10 @@
     "static/media/logo.png": "/Travel-World/static/media/logo.41420c2da21a0387a39e.png",
     "index.html": "/Travel-World/index.html",
     "main.bece09d1.css.map": "/Travel-World/static/css/main.bece09d1.css.map",
-    "main.ec1c2fd1.js.map": "/Travel-World/static/js/main.ec1c2fd1.js.map"
+    "main.93a217c1.js.map": "/Travel-World/static/js/main.93a217c1.js.map"
   },
   "entrypoints": [
     "static/css/main.bece09d1.css",
-    "static/js/main.ec1c2fd1.js"
+    "static/js/main.93a217c1.js"
   ]
 }
