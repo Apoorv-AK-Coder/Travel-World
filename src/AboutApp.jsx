@@ -3,7 +3,7 @@ import './css/index.css';
 import Header from './header.jsx';
 import Hero from './about/hero.jsx';
 import Intro from './about/intro.jsx';
-import About from './about/about.jsx';
+import About from './about/aboutsection.jsx';
 import Journey from './about/journey.jsx';
 import Offers from './about/offers.jsx';
 import CTA from './about/cta.jsx';
@@ -13,7 +13,7 @@ import React from 'react';
 
 export default function AboutApp() {
   return (
-    <div className="container">
+    <div>
       <Header />
       <Hero />
       <Intro />
