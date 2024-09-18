@@ -5,5 +5,5 @@ import AboutApp from "./AboutApp.jsx";
 import './css/style.css';
 import './css/index.css';
 
-const entryPoint = document.getElementById("newroot");
+const entryPoint = document.getElementById("root");
 ReactDOM.createRoot(entryPoint).render(<AboutApp />);
