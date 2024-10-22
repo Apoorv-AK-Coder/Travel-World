@@ -8,6 +8,11 @@ header {
     transition: background-color 0.3s ease;
     z-index: 1;
 
+    button {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
     .head1 {
         border-bottom: 1px solid var(--fourth-color);
         background-color: rgba(20, 20, 20, 0.5);
@@ -75,7 +80,7 @@ header {
     }
     
     a {
-        font-size: 18px;
+        /* font-size: 18px; */
         color: var(--fourth-color);
     }
 
@@ -683,4 +688,8 @@ footer {
     img {
         width: 100%;
     }
+}
+
+.loginpopup {
+    position: absolute;
 }

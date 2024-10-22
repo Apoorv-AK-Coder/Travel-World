@@ -26,14 +26,18 @@ export default function Header() {
 
     // Array for navigation items
     const navItems = [
-        { id: 'home', label: 'Home', link: '/' },
-        { id: 'about', label: 'About Us', link: './about.html' },
-        { id: 'flight', label: 'Flights', link: '#' },
-        { id: 'airline', label: 'Airlines', link: '#' },
-        { id: 'travel', label: 'Travel', link: '#' },
-        { id: 'deals', label: 'Deals', link: '#' },
-        { id: 'blog', label: 'Blog', link: '#' },
+        { icon: 'fa-solid fa-house', id: 'home', label: 'Home', link: '/' },
+        { icon: 'fa-solid fa-address-card', id: 'about', label: 'About Us', link: '/about' },
+        { icon: 'fa-solid fa-plane-departure', id: 'flight', label: 'Flights', link: '#' },
+        { icon: 'fa-solid fa-road', id: 'airline', label: 'Airlines', link: '#' },
+        { icon: 'fa-solid fa-suitcase-rolling', id: 'travel', label: 'Travel', link: '#' },
+        { icon: 'fa-solid fa-tag', id: 'deals', label: 'Deals', link: '#' },
+        { icon: 'fa-solid fa-blog', id: 'blog', label: 'Blog', link: '#' },
     ];
+
+    const handleNavigation = (link) => {
+        window.location.href = link;
+    };
 
 
     const [mobileNav, setMobileNav] = useState(false); // false means nav is hidden, true means nav is shown
@@ -45,6 +49,15 @@ export default function Header() {
     const handleNavHide = () => {
         setMobileNav(false); // Hide navigation
     };
+
+    function handleClick() {
+            <div className="loginpopup">
+                <form action="">
+                    <input type="text" />
+                    <button>Submit</button>
+                </form>
+            </div>
+    }
 
     return (
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
@@ -78,15 +91,14 @@ export default function Header() {
                                 <i onClick={handleNavHide} className="fa-solid fa-xmark icon" id="off"></i>
                                 <ul>
                                     {navItems.map((item) => (
-                                        <li key={item.id}
-                                            onClick={() => setNavClick(item.id)}
-                                            className={navClick === item.id ? 'active' : ''}
-                                        >
-                                            <a href={item.link}>{item.label}</a>
+                                        <li key={item.id} onClick={() => setNavClick(item.id)}
+                                            className={navClick === item.id ? 'active' : ''}>
+                                            <a href={item.link} onClick={() => handleNavigation(item.link)}><i className={item.icon}></i> {item.label}</a>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
+                            <button onClick={handleClick}>Signin / Signup</button>
                             <div className={`column ${mobileNav ? 'navHide' : ''}`} id="on">
                                 <i onClick={handleNavShow} className="fa-solid fa-bars"></i>
                             </div>
@@ -95,5 +107,5 @@ export default function Header() {
                 </div>
             </div>
         </header>
-    )
+    );
 }
